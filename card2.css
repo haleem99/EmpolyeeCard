@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+body{
+   background: linear-gradient(90deg, #00c6ff, #0072ff);;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card_container{
+    display: flex;
+    justify-content:center;
+   background-color: white;
+   width: 400px;
+   height: 500px;
+   border-radius: 15px; 
+}
+.image img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 100px;
+
+}
+.text{
+    margin: 20px;
+    text-align: center;
+}
+.footer {
+    margin: 20px;
+    text-align: center;
+    background-color: rgba(83, 173, 202, 0.5);
+    border-radius: 15px;
+    width: 200px;
+    height: 40px;
+    margin-left: 80px;
+    text-shadow: 1px 1px 2px black;
+    margin-top: 20px;
+    padding-top: 20px;
+
+    
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+}
+
+.text h1{
+    color: aquamarine;
+    font-size: 50px;
+    backdrop-filter: blur(5px);
+    text-shadow: 1px 1px 2px black;
+}
+.text p{
+    color: black;
+    margin-bottom: 10px;
+    font-size: 20px;
+    backdrop-filter: blur(5px);
+    text-shadow: 1px 1px 2px black;
+}
+.text h2{
+    color: black;
+    font-size: 20px;
+    backdrop-filter: blur(5px);
+    text-shadow: 1px 1px 2px black;
+}
+.footer h2{
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+    height: 50px;
+    width: 200px;
+    background-color: rgba(83, 173, 202, 0.5);
+    border-radius: 15px;
+    /* text-shadow: 1px 1px 2px black; */
+}
+
+
+
